@@ -1,0 +1,19 @@
+class Salary{
+	public static void main(String args[])
+	{
+	int x=20000;
+	if(x>=10000&&x<=20000){
+	system.out.println("Manager operation");
+	}
+	if(x>=20001&&x<=30000){
+	system.out.println("Manager");
+	}
+	if(x>=30001&&x<=40000){
+	system.out.println("Area Manager");
+	if(x>=40001&&x<=50000){
+	system.out.println("Regional Area");
+	}
+	}
+
+	}
+}
